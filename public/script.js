@@ -39,9 +39,24 @@ window.onscroll=()=>{
         }
     })
 
+}
 function disable(){
     navLinks.forEach(link=>{
         link.classList.remove('active');
     })
 }
-}
+
+const projects=document.querySelectorAll('#project');
+const drops=document.querySelectorAll('#projects .drop');
+
+projects.forEach((project, idx)=>{
+    project.onclick=()=>{
+        if(drops[idx].classList.contains('-translate-y-full')){
+            drops[idx].classList.remove('-translate-y-full');
+        }else{
+            drops[idx].classList.add('-translate-y-full');
+        }
+    }
+})
+
+

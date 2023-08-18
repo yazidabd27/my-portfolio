@@ -7,13 +7,9 @@
     scroll-behavior: smooth;
 }
 
-#projects div div:hover .drop{
-    transform: translateY(0);
-    transition: .5s;
-}
-
 .drop {
     background-color: rgba(0, 173, 181, 0.9);
+    transition: .5s;
 }
 
 .drop #btn{
