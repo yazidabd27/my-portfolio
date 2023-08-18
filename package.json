@@ -4,11 +4,8 @@
   "description": "",
   "main": "tailwind.config.js",
   "scripts": {
-    "build-css": "tailwindcss build src/input.css -o dist/output.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "tailwindcss": "^3.3.3"
-  }
+  "license": "ISC"
 }
