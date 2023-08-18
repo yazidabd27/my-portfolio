@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#projects div div:hover .drop{
+    transform: translateY(0);
+    transition: .5s;
+}
+
+.drop {
+    background-color: rgba(0, 173, 181, 0.9);
+}
+
+.drop #btn{
+    background-color: rgba(30, 42, 58, 1);
+}
+
+.drop #btn:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+.active{
+    color: rgb(30, 42, 58);
+}
+
+nav a:hover{
+    color: rgb(30, 42, 58);
+}
+
+
+
+
